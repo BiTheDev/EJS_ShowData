@@ -28,7 +28,7 @@ app.get('/:id', function(request, response) {
     console.log(id);
     var List = [
         {id:1, name: "Ford", detail: ["Shelby Mustang","nice one"]},
-        {id:2, name: "Chev", detail: "Camero SS"}
+        {id:2, name: "Chev", detail: ["Camero SS"]}
     ]
     for(var item in List) {
         if(List[item].id == id){
